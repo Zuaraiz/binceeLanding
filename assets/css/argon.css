@@ -758,7 +758,7 @@ pre code
 {
     .container
     {
-        max-width: 1040px;
+        max-width: 100%;
     }
 }
 
@@ -18877,7 +18877,8 @@ il, ul {
  
  @media only screen and (min-width:960px){
      .img-log{
-         margin-top:100px;
+         margin-top: 100px;
+        padding-left: 100px;
      }
  }
 
