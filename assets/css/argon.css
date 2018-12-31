@@ -2315,6 +2315,7 @@ pre code
     font-size: 1rem;
     line-height: 1.5;
 
+    font-family: 'GothicBook', 'GothicBlack', sans-serif;
     display: flex;
 
     width: 100%;
@@ -2515,7 +2516,7 @@ textarea.form-control
 .form-check-input
 {
     position: absolute;
-
+    font-family: 'GothicBook', 'GothicBlack' sans-serif;
     margin-top: .3rem;
     margin-left: -1.25rem;
 }
@@ -18796,14 +18797,14 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
     src: url("../fonts/gotham/GothamLight.ttf");
 }
 .headerText{
-    font-family: 'GothicBook' !important;
+    font-family: 'GothicBook', sans-serif;
     font-size: 14px !important;
     color: #171258;
     
 }
 @media (min-width: 1660px) {
     .headerText{
-        font-family: 'GothicBook' !important;
+        font-family: 'GothicBook', sans-serif;
         font-size: 18px !important;
         color: #171258;
         
@@ -18881,7 +18882,6 @@ font-size: 10px !important;
       
  }
 il, ul {
-    font-family: 'GothicBook' !important;
     font-size:12px !important;
     margin-top:10px;
 }
