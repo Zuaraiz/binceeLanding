@@ -18787,25 +18787,25 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
     color: #171258;
     
 }
-@media (min-width: 1500px) {
+@media (min-width: 1660px) {
     .headerText{
         font-family: 'GothicBook' !important;
-        font-size: 20px !important;
+        font-size: 18px !important;
         color: #171258;
         
     }
     .footer-text{
-        font-size: 17px !important;
+        font-size: 16px !important;
         
     }
     .form-control{
-        font-size: 1rem !important;
+        font-size: 0.92rem !important;
     }
     .btn{
-        font-size: 1rem !important;
+        font-size: 0.92rem !important;
     }
     .footer-font{
-        font-size: 13.5px !important;
+        font-size: 12.5px !important;
     }
       
  }
@@ -18817,17 +18817,17 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
         
     }
     .footer-text {
-        font-size: 18px !important;
+        font-size: 17px !important;
         
     }
     .form-control{
-        font-size: 1.2rem !important;
+        font-size: 1rem !important;
     }
     .btn{
-        font-size: 1.2rem !important;
+        font-size: 1rem !important;
     }
     .footer-font{
-        font-size: 14.5px !important;
+        font-size: 13.5px !important;
     }
     
       
