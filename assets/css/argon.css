@@ -9682,7 +9682,6 @@ button.bg-darker:focus
 .mb-5,
 .my-5
 {
-    margin-bottom: 3rem !important;
 }
 
 .ml-5,
@@ -10047,7 +10046,22 @@ button.bg-darker:focus
 .pt-lg,
 .py-lg
 {
-    padding-top: 6rem !important;
+    padding-top: 10%;
+}
+
+@media (min-width: 1700px)
+{
+	.pt-lg
+{
+    padding-top: 15%;
+}
+}
+@media (min-width: 2500px)
+{
+	.pt-lg
+{
+    padding-top: 20%;
+}
 }
 
 .pr-lg,
@@ -17138,7 +17152,7 @@ textarea[resize='horizontal']
 .section-lg
 {
     padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-bottom: 0rem;
 }
 
 .section-sm
@@ -18961,19 +18975,18 @@ il, ul {
 .bg-footer{
     background-image: url("../images/footer.png");
     /* height: 1230px; */
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 @media screen and (max-width: 991px) {
     .bg-footer{
-        height: 1724px;
+        height: 100%;
     }
 }
 @media screen and (min-width: 992px) {
     .bg-footer{
-        height: 1230px;
+        height: 100%;
     }
 }
 
