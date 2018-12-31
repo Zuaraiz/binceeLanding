@@ -2516,7 +2516,7 @@ textarea.form-control
 .form-check-input
 {
     position: absolute;
-    font-family: 'GothicBook', 'GothicBlack' sans-serif;
+    font-family: 'GothicBook', 'GothicBlack', sans-serif;
     margin-top: .3rem;
     margin-left: -1.25rem;
 }
@@ -18855,12 +18855,12 @@ font-size: 10px !important;
     
 }
 .parentHeader{
-    font-family: 'GothicBold', sans-serif;
+    font-family: 'GothicBlack', sans-serif;
     font-size: 40px;
     color: #171258;
 }
 .parentpost{
-    font-family: 'GothicBold', sans-serif;
+    font-family: 'GothicBlack', sans-serif;
     font-size: 16px;
     color: #171258;
 }
