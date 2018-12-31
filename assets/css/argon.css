@@ -18778,19 +18778,21 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
 /* ----------- navbar -------------*/
 @font-face{
     font-family: 'GothicBook';
-    src: url("../fonts/gotham/GothamBook.ttf");
+    src: url("../fonts/gotham/GothamBook.ttf")  format('truetype');
 }
 @font-face{
     font-family: 'GothicBlack';
-    src: url("../fonts/gotham/Gotham-Black.otf");
+    src: url("../fonts/gotham/Gotham-Black.otf") format('truetype'),
+    url("../fonts/gotham/Gotham-Black.otf")  format('opentype');
 }
 @font-face{
     font-family: 'GothicBold';
-    src: url("../fonts/gotham/GothamBold.ttf");
+    src: url("../fonts/gotham/GothamBold.ttf") format('truetype');
 }
 @font-face{
     font-family: 'GothicMedium';
-    src: url("../fonts/gotham/GothamMedium_0.ttf");
+    src: url("../fonts/gotham/GothamMedium_0.ttf") format('truetype'),
+    url("../fonts/gotham/gothammedium.otf")  format('opentype');
 }
 @font-face{
     font-family: 'GothicLight';
@@ -18848,24 +18850,24 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
       
  }
 .menu-text{
-    font-family: 'GothicBook' !important;
+    font-family: 'GothicBook', sans-serif !important;
 font-size: 10px !important;
     
 }
 .parentHeader{
-    font-family: 'GothicBold';
+    font-family: 'GothicBold', sans-serif;
     font-size: 40px;
     color: #171258;
 }
 .parentpost{
-    font-family: 'GothicBold';
+    font-family: 'GothicBold', sans-serif;
     font-size: 16px;
     color: #171258;
 }
 
 @media (min-width: 1500px) {
     .parentpost{
-        font-family: 'GothicBold';
+        font-family: 'GothicBold', sans-serif;
         font-size: 22px;
         color: #171258;
     }
@@ -18874,7 +18876,7 @@ font-size: 10px !important;
  }
  @media (min-width: 1900px) {
     .parentpost{
-        font-family: 'GothicBold';
+        font-family: 'GothicBold', sans-serif;
         font-size: 23px;
         color: #171258;
     }
