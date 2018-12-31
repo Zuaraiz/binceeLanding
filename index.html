@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>binacee</title>
+    <title>Bincee</title>
     <!-- Favicon -->
     <link href="assets/img/brand/favicon.png" rel="icon" type="image/png">
 
@@ -294,7 +294,7 @@
 
         <section class="section bg-footer" >
             <div class="container-fluid pt-lg pb-300 mt-5" >
-                <div class="row justify-content-center" style="margin-top:130px;">
+                <div class="row justify-content-center workPosition" >
                     <div class="col-lg-10 " id="howItWorks">
                         <h2 class="footer-heading text-white text-center" >How It Works</h2>
                         <div class="row my-5">
@@ -439,78 +439,79 @@
 
 
             </div>
+            <footer class="" id="latestUpdates">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <div class="row mt-5">
+                                <div class="col-lg-4 offset-lg-4 text-center">
+        
+                                    <h2 class="footer-heading text-white text-center">Get in Touch</h2>
+                                    <div class="text-white footer-font mb-3"> sign up for latest news, exclusive offers and
+                                        ticket
+                                        pre-sales.</div>
+                                    <form class="mt-5 text-white footer-text" method="POST" action="{{ url('newsletter')}}"
+                                        enctype="multipart/form-data" value="PATCH">
+                                        <!-- {{ csrf_field() }} -->
+                                        <div class="form-group">
+        
+                                            <input type="text" class="form-control" name="name" id="name" aria-describedby="emailHelpId"
+                                                placeholder="Name" style="border: 1px solid #f4f6f7 !important; background-color: #121a36;    border-radius: 2rem;">
+        
+                                        </div>
+                                        <div class="form-group">
+        
+                                            <input type="email" name="email" id="" class="form-control" placeholder="Email"
+                                                aria-describedby="helpId" style="border: 1px solid #f4f6f7 !important; background-color: #121a36;    border-radius: 2rem;">
+        
+                                        </div>
+                                        <div class="form-group">
+        
+                                            <textarea class="form-control" name="message" id="message" rows="3" placeholder="type Your Message"
+                                                style="border: 1px solid #f4f6f7 !important; background-color: #121a36;    border-radius: 1rem; "></textarea>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary mt-2" style="border: 1px solid #f4f6f7 !important; background-color: #121a36;border-radius: 1rem;">Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 offset-lg-3 text-center">
+                                    <ul class="text-white footer-link">
+                                        <li class="footer-display"> <a class=" linkcolor" href="#">Home</a></li>
+                                        <li class="footer-display"> <a class=" linkcolor" href="#">About Us</a> </li>
+                                        <li class="footer-display"> <a class=" linkcolor" href="#featuresForParents">Features</a></li>
+                                        <li class="footer-display"> <a class=" linkcolor" href="#howItWorks">How It Works</a></li>
+                                        <li class="footer-display"> <a class=" linkcolor" href="#latestUpdates">Latest Updates</a></li>
+                                        <li class="footer-display"> <a class=" linkcolor" href="#">Portal For School</a></li>
+        
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6 offset-lg-3 text-center">
+                                    <ul style="margin-top:-25px;">
+                                        <li class="social-icons"> <a class=" linkcolor" href="#"><img src="assets/images/16px-logo-facebook.png"
+                                                    class="img-fluid" class="" alt=""></a></li>&nbsp;&nbsp;
+                                        <li class="social-icons"><a class=" linkcolor" href="#"><img src="assets/images/16px-logo-instagram.png"
+                                                    class="img-fluid" class="" alt=""></a></li>&nbsp;&nbsp;
+                                        <li class="social-icons"><a class=" linkcolor" href="#"><img src="assets/images/16px-logo-twitter.png"
+                                                    class="img-fluid" class="" alt=""></a></li>&nbsp;&nbsp;
+                                        <li class="social-icons"> <a class=" linkcolor" href="#"><img src="assets/images/16px-logo-youtube.png"
+                                                    class="img-fluid" class="" alt=""></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+        
+                        </div>
+                    </div>
+        
+        
+            </footer>
 
         </section>
 
     </main>
-    <footer class="footer-bg" id="latestUpdates">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <div class="row mt-5">
-                        <div class="col-lg-4 offset-lg-4 text-center">
-
-                            <h2 class="footer-heading text-white text-center">Get in Touch</h2>
-                            <div class="text-white footer-font mb-3"> sign up for latest news, exclusive offers and
-                                ticket
-                                pre-sales.</div>
-                            <form class="mt-5 text-white footer-text" method="POST" action="{{ url('newsletter')}}"
-                                enctype="multipart/form-data" value="PATCH">
-                                <!-- {{ csrf_field() }} -->
-                                <div class="form-group">
-
-                                    <input type="text" class="form-control" name="name" id="name" aria-describedby="emailHelpId"
-                                        placeholder="Name" style="border: 1px solid #f4f6f7 !important; background-color: #121a36;    border-radius: 2rem;">
-
-                                </div>
-                                <div class="form-group">
-
-                                    <input type="email" name="email" id="" class="form-control" placeholder="Email"
-                                        aria-describedby="helpId" style="border: 1px solid #f4f6f7 !important; background-color: #121a36;    border-radius: 2rem;">
-
-                                </div>
-                                <div class="form-group">
-
-                                    <textarea class="form-control" name="message" id="message" rows="3" placeholder="type Your Message"
-                                        style="border: 1px solid #f4f6f7 !important; background-color: #121a36;    border-radius: 1rem; "></textarea>
-                                </div>
-                                <button type="submit" class="btn btn-primary mt-2" style="border: 1px solid #f4f6f7 !important; background-color: #121a36;border-radius: 1rem;">Submit</button>
-                            </form>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6 offset-lg-3 text-center">
-                            <ul class="text-white footer-link">
-                                <li class="footer-display"> <a class=" linkcolor" href="#">Home</a></li>
-                                <li class="footer-display"> <a class=" linkcolor" href="#">About Us</a> </li>
-                                <li class="footer-display"> <a class=" linkcolor" href="#featuresForParents">Features</a></li>
-                                <li class="footer-display"> <a class=" linkcolor" href="#howItWorks">How It Works</a></li>
-                                <li class="footer-display"> <a class=" linkcolor" href="#latestUpdates">Latest Updates</a></li>
-                                <li class="footer-display"> <a class=" linkcolor" href="#">Portal For School</a></li>
-
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6 offset-lg-3 text-center">
-                            <ul style="margin-top:-25px;">
-                                <li class="social-icons"> <a class=" linkcolor" href="#"><img src="assets/images/16px-logo-facebook.png"
-                                            class="img-fluid" class="" alt=""></a></li>&nbsp;&nbsp;
-                                <li class="social-icons"><a class=" linkcolor" href="#"><img src="assets/images/16px-logo-instagram.png"
-                                            class="img-fluid" class="" alt=""></a></li>&nbsp;&nbsp;
-                                <li class="social-icons"><a class=" linkcolor" href="#"><img src="assets/images/16px-logo-twitter.png"
-                                            class="img-fluid" class="" alt=""></a></li>&nbsp;&nbsp;
-                                <li class="social-icons"> <a class=" linkcolor" href="#"><img src="assets/images/16px-logo-youtube.png"
-                                            class="img-fluid" class="" alt=""></a></li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-
-    </footer>
+    
     <!-- Core -->
     <!-- <script src="{{ asset('assets/vendor/jquery/jquery.min.js') }}" defer>
     </script>

@@ -18802,7 +18802,7 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
     font-family: 'GothicBook', sans-serif;
     font-size: 14px !important;
     color: #171258;
-    
+    font-weight: 500;
 }
 @media (min-width: 1660px) {
     .headerText{
@@ -18863,6 +18863,9 @@ font-size: 10px !important;
     font-family: 'GothicBold', sans-serif;
     font-size: 16px;
     color: #171258;
+}
+.workPosition{
+    margin-top:130px;
 }
 
 @media (min-width: 1500px) {
@@ -18975,7 +18978,7 @@ il, ul {
  }
 
 .bg-footer{
-    background-image: url("../images/footer.png");
+    background-image: url("../images/footerBg.png");
     /* height: 1230px; */
     background-repeat: no-repeat;
     background-size: cover;
