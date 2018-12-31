@@ -25,7 +25,7 @@
     <!-- <link href="{{ asset('assets/css/docs.min.css') }}" rel="stylesheet"> -->
 </head>
 
-<body class="bg img-logo">
+<body class="bg img-logo" id ="home">
     <header class="header-global">
         <nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-dark " style="background-color: #131a37;">
             <div class="container-fluid">
@@ -56,7 +56,7 @@
                     </div>
                     <ul class="navbar-nav align-items-lg-center ml-lg-auto ">
                         <li class="nav-item menu-border">
-                            <a class="nav-link nav-link-icon headerText" href="#" data-toggle="tooltip" title="">
+                            <a class="nav-link nav-link-icon headerText" href="#home" data-toggle="tooltip" title="">
                                 HOME
                             </a>
                         </li>
@@ -142,7 +142,7 @@
                                     <p style="margin-right: 50px;font-size: 14px;line-height:1.4" class="headerText">
                                         Parents will recive advance intimations on their app to be ready
                                         for their child pick up, ensuring hassle free coordination. No need for the
-                                        buss to wait
+                                        bus to wait
 
                                     </p>
                                 </div>
@@ -153,8 +153,8 @@
                                     </h3>
                                     <p style="margin-right: 50px;font-size: 14px;line-height:1.4" class="headerText">
                                         Parents can simply click to mark students' day
-                                        off to avoid unecessary reminder calls on off day,
-                                        also streamlined trip planning by bus driver.
+                                        off to avoid unnecessary reminder calls on off day,
+                                        also streamlined trip planning by bus driver
 
                                     </p>
                                 </div>
@@ -176,9 +176,9 @@
                                         Real Time Tracking
                                     </h3>
                                     <p style="margin-right: 50px;font-size: 14px;line-height:1.4" class="headerText">
-                                        Buss will be real time tracked via bus driver's
-                                        app and they will not be allowed t turn off their location tracking.
-                                        Upon turning of location, an intimation will be sent.
+                                        Bus will be real time tracked via bus driver's
+                                        app and they will not be allowed to turn off their location tracking.
+                                        Upon turning of location, an intimation will be sent
 
 
                                     </p>
@@ -190,9 +190,9 @@
                                         Exceptional Notifications
                                     </h3>
                                     <p style="margin-right: 50px;font-size: 14px;line-height:1.4" class="headerText">
-                                        All sort of incedents which cause any delay in transport of
-                                        the child to and from schools such as traffic delays and buss going off-route
-                                        will be sent to the parent as well.
+                                        All sort of incidents which cause any delay in the transport of
+                                        the child to and from school such as traffic delays and bus going off-route
+                                        will be sent to parents as well.
 
                                     </p>
                                 </div>
@@ -224,7 +224,7 @@
                                     <p style="margin-right: 50px;font-size: 14px;line-height:1.4" class="headerText">
                                         Profiles of drivers and students which helps
                                         school transport managers to communicate better.<br>
-                                        Further, it provides school with import Features which
+                                        Further, it provides school with import features which
                                         makes the data entry prcess smooth and simple.
 
                                     </p>
@@ -262,7 +262,7 @@
                         <h3 class="parentHeader"> Features of Drivers</h3>
                         <p class="headerText">Bincee is a solution that work as a blessing for Drivers as Parents will
                             be well informed
-                            about the bus delay through real time alerts and can adjust their routies accordingly </p>
+                            about the bus delays through real time alerts and can adjust their routies accordingly </p>
                         <b class="parentpost">Bincee helps drives to:</b>
                         <ul class="headerText">
 
@@ -271,14 +271,14 @@
                                 on daily traffic controls.
                             </li>
                             <li>
-                                Route sugestion in case of unusual traffic sittuations.
+                                Route sugestion in case of unusual traffic situations.
                             </li>
                             <li>
-                                know each stoppages with the list of students at each stop.
+                                Know each stoppages with the list of students at each stop.
                             </li>
                             <li>
                                 Notify parents and students in advance of bus arival, so no useless delays
-                                and wait for bus drivers as well.
+                                and waits for bus drivers as well.
                             </li>
                             <li>
                                 Notify parents and schools in case of Emergency alerts.
@@ -387,7 +387,7 @@
                                 <img src="assets/images/Shape 9.png" alt="" height="600px">
                             </div>
                             <div class="col-lg-5 ">
-                                <h6 class=" text-white footer-text text-center">DO YOU PRESENT A SCHOOL? </h6>
+                                <h6 class=" text-white footer-text text-center">DO YOU REPRESENT A SCHOOL? </h6>
                                 <form class="mt-5 text-white footer-text" method="POST" action="{{ url('schools')}}"
                                     enctype="multipart/form-data" value="PATCH">
                                     <!-- {{ csrf_field() }} -->
@@ -477,7 +477,7 @@
                             <div class="row">
                                 <div class="col-lg-6 offset-lg-3 text-center">
                                     <ul class="text-white footer-link">
-                                        <li class="footer-display"> <a class=" linkcolor" href="#">Home</a></li>
+                                        <li class="footer-display"> <a class=" linkcolor" href="#home">Home</a></li>
                                         <li class="footer-display"> <a class=" linkcolor" href="#">About Us</a> </li>
                                         <li class="footer-display"> <a class=" linkcolor" href="#featuresForParents">Features</a></li>
                                         <li class="footer-display"> <a class=" linkcolor" href="#howItWorks">How It Works</a></li>
