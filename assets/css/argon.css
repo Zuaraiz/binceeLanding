@@ -2315,10 +2315,10 @@ pre code
     font-size: 1rem;
     line-height: 1.5;
 
-    display: block;
+    display: flex;
 
     width: 100%;
-    height: calc(2.75rem + 2px);
+    /* height: calc(2.75rem + 2px); */
     padding: .625rem .75rem;
 
     transition: all .2s cubic-bezier(.68, -.55, .265, 1.55); 
@@ -19027,10 +19027,21 @@ il, ul {
    
      
 }
+.social-icons{
+    display: inline;
+    font-family: 'GothicBook';
+    font-size:12px;
+    padding: 0 6px;
+}
 .footer-display{
     display: inline;
     font-family: 'GothicBook';
     font-size:12px;
+    padding: 0 6px;
+}
+.footer-display:hover{
+    cursor:pointer;
+    border-bottom: 1.3px solid #fff;
 }
 .footer-font{
     font-family: 'GothicBook';
