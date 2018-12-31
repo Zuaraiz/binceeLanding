@@ -2527,6 +2527,7 @@ textarea.form-control
 
 .form-check-label
 {
+    font-family: 'GothicBook', 'GothicBlack', sans-serif;
     margin-bottom: 0;
 }
 
@@ -18828,7 +18829,7 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
  }
  @media (min-width: 1900px) {
     .headerText{
-        font-family: 'GothicBook' !important;
+        font-family: 'GothicBook', 'GothicBlack', sans-serif;
         font-size: 21px !important;
         color: #171258;
         
@@ -19014,11 +19015,11 @@ il, ul {
 } */
 /* ==========footer=================*/
 .footer-heading{
-    font-family: 'GothicMedium';
+    font-family: 'GothicBook';
     font-size:40px;
 }
 .footer-text{
-    font-family: 'GothicMedium';
+    font-family: 'GothicBook';
     font-size:14px;
 }
 .footer-bg{
