@@ -2315,7 +2315,7 @@ pre code
     font-size: 1rem;
     line-height: 1.5;
 
-    font-family: 'GothicMedium', 'GothicBlack', sans-serif;
+    font-family: 'GothicBook', 'GothicBlack', sans-serif;
     display: flex;
 
     width: 100%;
@@ -2516,7 +2516,7 @@ textarea.form-control
 .form-check-input
 {
     position: absolute;
-    font-family: 'GothicMedium', 'GothicBlack', sans-serif;
+    font-family: 'GothicBook', 'GothicBlack', sans-serif;
     margin-top: .3rem;
     margin-left: -1.25rem;
 }
@@ -2527,6 +2527,7 @@ textarea.form-control
 
 .form-check-label
 {
+    font-family: 'GothicBook', 'GothicBlack', sans-serif;
     margin-bottom: 0;
 }
 
@@ -18799,14 +18800,14 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
     src: url("../fonts/gotham/GothamLight.ttf");
 }
 .headerText{
-    font-family: 'GothicMedium', sans-serif;
+    font-family: 'GothicBook', sans-serif;
     font-size: 14px !important;
     color: #171258;
     font-weight: 500;
 }
 @media (min-width: 1660px) {
     .headerText{
-        font-family: 'GothicMedium', sans-serif;
+        font-family: 'GothicBook', sans-serif;
         font-size: 18px !important;
         color: #171258;
         
@@ -18828,7 +18829,7 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
  }
  @media (min-width: 1900px) {
     .headerText{
-        font-family: 'GothicMedium', 'GothicBlack',sans-serif;
+        font-family: 'GothicBook', 'GothicBlack', sans-serif;
         font-size: 21px !important;
         color: #171258;
         
@@ -18850,7 +18851,7 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle
       
  }
 .menu-text{
-    font-family: 'GothicMedium', sans-serif !important;
+    font-family: 'GothicBook', sans-serif !important;
 font-size: 10px !important;
     
 }
@@ -19014,11 +19015,11 @@ il, ul {
 } */
 /* ==========footer=================*/
 .footer-heading{
-    font-family: 'GothicMedium';
+    font-family: 'GothicBook';
     font-size:40px;
 }
 .footer-text{
-    font-family: 'GothicMedium';
+    font-family: 'GothicBook';
     font-size:14px;
 }
 .footer-bg{
@@ -19028,19 +19029,19 @@ il, ul {
     list-style-type: none;
     padding: 25px;
     margin-top:10px;
-    font-family: 'GothicMedium';
+    font-family: 'GothicBook';
    
      
 }
 .social-icons{
     display: inline;
-    font-family: 'GothicMedium';
+    font-family: 'GothicBook';
     font-size:12px;
     padding: 0 6px;
 }
 .footer-display{
     display: inline;
-    font-family: 'GothicMedium';
+    font-family: 'GothicBook';
     font-size:12px;
     padding: 0 6px;
 }
@@ -19049,7 +19050,7 @@ il, ul {
     border-bottom: 1.3px solid #fff;
 }
 .footer-font{
-    font-family: 'GothicMedium';
+    font-family: 'GothicBook';
     font-size:10.5px;
 }
 .storeImage{
