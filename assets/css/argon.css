@@ -19056,6 +19056,9 @@ il, ul {
 .storeImage{
     margin-top: 1em;
 }
+.storeImageApple{
+    margin-top: 1em;
+}
 .parent-section-main{
     margin-top: 13em;
 }
@@ -19182,14 +19185,26 @@ il, ul {
         margin-top: 43em;
     }
 }
+@media (max-width: 239px){
+    .storeImageApple{
+        margin-left: 1em;
+        width:90px;
+    }
+}
 @media (max-width: 403px){
     .storeImage{
-        margin-left: 2em;
+        margin-left: 1em;
+        width:90px;
+    }
+    .storeImageApple{
         width:90px;
     }
 }
 @media (min-width: 403px) and (max-width: 590px){
     .storeImage{
+        width:115px;
+    }
+    .storeImageApple{
         width:115px;
     }
 }
